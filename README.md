@@ -11,6 +11,7 @@ We used a multi-layer neural network that consisted of three different LSTM laye
 Across all three window frames (3 day, 5 day, and 10 day) the model using closing price had a much better loss rate.  It also seemed to predict the scores vs the actual scores better than the FNG.
 
 Using the 3 day rolling window in the closing data seemed to provide the best predictions for the predicted closing price vs the actual closing price.
+
 ![3 Day Rolling Window - Closing Prices](Images/Closing%20Price%20Data_3%20Day%20Window.png)
 
 So, in summary, we determined that using the closing prices was a more accurate predictor than using the social media sentiment score.  
